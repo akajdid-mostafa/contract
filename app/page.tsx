@@ -10,14 +10,16 @@ import HeroSection from './components/Banner/index';
 import QuestionSection from './components/question/question';
 import StepsSection from './components/steps/steps';
 import CardSection from  './components/card/card';
+import ComingSoon from  './components/coming';
+
 
 
 export default function Home() {
   return (
     <main>
-      <HeroSection />
+      {/* <HeroSection /> */}
       {/* <Banner /> */}
-      <Companies />
+      {/* <Companies />
       <CardSection/>
       <Buyers />
       <Provide />
@@ -25,8 +27,11 @@ export default function Home() {
       <Network />
       <StepsSection/>
       <QuestionSection/>
-      <Clientsay />
+      <Clientsay /> */}
       {/* <Newsletter /> */}
+      <ComingSoon/>
+
     </main>
+    
   )
 }
